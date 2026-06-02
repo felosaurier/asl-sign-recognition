@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset (zu gross für GitHub)
+data/asl_dataset/
+data/*.npz
+
+# Trainierte Modelle (zu gross für GitHub)
+models/*.keras
+models/*.npy
+models/*.task
+models/logs/
+
+# Figures (generiert)
+figures/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
